@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package rkv;
+
+service KVStore {
+  rpc Ping (Empty) returns (Pong);
+}
+
+message Empty {}
+
+message Pong {
+  string message = 1; // The "1" is a unique ID for this field, not the value!
+}
