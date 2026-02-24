@@ -9,7 +9,7 @@ license = "MIT OR Apache-2.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-tonic = "0.10"
+tonic = "0.14"
 prost = "0.12"
 tokio = { version = "1.0", features = ["full"] }
 
